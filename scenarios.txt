@@ -1,0 +1,32 @@
+# Set of scenarios where security risks could occur in the CI/CD process
+
+Third-party library vulnerability
+
+Developers add a new third-party library to the codebase without reviewing its security vulnerabilities
+The library contains a critical security flaw, which the developer is unaware of
+The library is deployed to the production environment through the CI/CD pipeline
+Potential consequences: attackers could exploit the vulnerability to gain unauthorized access to the system, execute arbitrary code, or steal sensitive data
+
+Exposed sensitive information
+A DevOps engineer mistakenly exposes an API key or a password while configuring a service account
+The sensitive information gets committed to the source code repository
+The code is deployed to the production environment through the CI/CD pipeline
+Potential consequences: attackers could use the exposed information to gain unauthorized access to the system or steal sensitive data
+
+Malicious code injection
+A developer commits code to the source code repository that contains a backdoor or a malicious code snippet
+The code gets deployed to the production environment through the CI/CD pipeline
+The backdoor remains undetected for a long time
+Potential consequences: attackers could gain unauthorized access to the system, steal sensitive data, or execute arbitrary code
+
+Source code repository compromise
+An attacker successfully injects a malicious code snippet into the source code repository through a phishing attack or a social engineering tactic
+The code gets deployed to the production environment through the CI/CD pipeline
+The attacker gains access to sensitive data or takes control of the system
+Potential consequences: attackers could steal sensitive data, execute arbitrary code, or cause disruption to the system
+
+Missed security vulnerability
+A QA engineer misses a critical security vulnerability while testing the code
+The vulnerability goes unnoticed until the code is deployed to the production environment through the CI/CD pipeline
+The vulnerability could allow attackers to bypass authentication, access sensitive data, or execute arbitrary code
+Potential consequences: attackers could gain unauthorized access to the system, steal sensitive data, or execute arbitrary code
