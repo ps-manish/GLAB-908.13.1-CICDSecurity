@@ -1,6 +1,6 @@
 # GLAB-908.13.1-CICDSecurity
 
-## "The One with CI/CD Security and Teamwork: A Friends-Inspired Tech Chat"
+## "The One with CI/CD Security: A Friends-Inspired Tech Chat"
 
 
 
