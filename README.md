@@ -47,4 +47,4 @@ As they continue their conversation, Bob and John find humor and camaraderie in 
 
 ## To dos for Learners
 
-Learners need to go through the provided set of scenarios where security risks could occur in the CI/CD process and to work in pairs and identify the potential consequences of each scenario and what steps they could take to mitigate the risk
+Please review scenarios.txt with the list where security risks could occur in the CI/CD process and to work in pairs and identify the potential consequences of each scenario and what steps they could take to mitigate the risk
