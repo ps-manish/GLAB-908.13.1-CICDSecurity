@@ -47,17 +47,40 @@ As they continue their conversation, Bob and John find humor and camaraderie in 
 
 ## To dos for Learners
 
-Unscramble the following CI/CD security terms and define them in one sentence in relate to ci/cd
+Please match the ci/cd security issues for each case here
 
-1. ITAONUHTCIA
-2. NIVATUEHONT
-3. PSENCOIRG
-4. NEAUHTICTO
-5. LPEEVESIRG
-6. REEDCNECOC
-7. RUCYMOT
-8. LATOMEEN
-9. NTROTACIY
-10. TRALINOG
+### Issues
 
+- Third-party library vulnerability
+- Exposed sensitive information
+- Malicious code injection
+- Source code repository compromise
+- Missed security vulnerability
+
+### Cases
+
+- Developers add a new third-party library to the codebase without reviewing its security vulnerabilities
+The library contains a critical security flaw, which the developer is unaware of
+The library is deployed to the production environment through the CI/CD pipeline
+Potential consequences: attackers could exploit the vulnerability to gain unauthorized access to the system, execute arbitrary code, or steal sensitive data
+
+- A DevOps engineer mistakenly exposes an API key or a password while configuring a service account
+The sensitive information gets committed to the source code repository
+The code is deployed to the production environment through the CI/CD pipeline
+Potential consequences: attackers could use the exposed information to gain unauthorized access to the system or steal sensitive data
+
+- A QA engineer misses a critical security vulnerability while testing the code
+The vulnerability goes unnoticed until the code is deployed to the production environment through the CI/CD pipeline
+The vulnerability could allow attackers to bypass authentication, access sensitive data, or execute arbitrary code
+Potential consequences: attackers could gain unauthorized access to the system, steal sensitive data, or execute arbitrary code
+
+- A developer commits code to the source code repository that contains a backdoor or a malicious code snippet
+The code gets deployed to the production environment through the CI/CD pipeline
+The backdoor remains undetected for a long time
+Potential consequences: attackers could gain unauthorized access to the system, steal sensitive data, or execute arbitrary code
+
+- An attacker successfully injects a malicious code snippet into the source code repository through a phishing attack or a social engineering tactic
+The code gets deployed to the production environment through the CI/CD pipeline
+The attacker gains access to sensitive data or takes control of the system
+Potential consequences: attackers could steal sensitive data, execute arbitrary code, or cause disruption to the system
 
