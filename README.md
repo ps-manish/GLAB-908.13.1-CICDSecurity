@@ -47,4 +47,17 @@ As they continue their conversation, Bob and John find humor and camaraderie in 
 
 ## To dos for Learners
 
-Please review scenarios.txt with the list where security risks could occur in the CI/CD process and to work in pairs and identify the potential consequences of each scenario and what steps they could take to mitigate the risk
+Unscramble the following CI/CD security terms and define them in one sentence in relate to ci/cd
+
+1. ITAONUHTCIA
+2. NIVATUEHONT
+3. PSENCOIRG
+4. NEAUHTICTO
+5. LPEEVESIRG
+6. REEDCNECOC
+7. RUCYMOT
+8. LATOMEEN
+9. NTROTACIY
+10. TRALINOG
+
+
